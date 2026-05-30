@@ -10,6 +10,7 @@ Built on top of [Dio](https://pub.dev/packages/dio), `smart_network` gives
 you a robust HTTP client with **zero boilerplate** for the features every
 production app needs:
 
+
 | Feature | Description |
 |---|---|
 | 🔁 **Retry** | Exponential / Linear / Constant / Decorrelated-Jitter backoff |
@@ -22,6 +23,12 @@ production app needs:
 | 🔬 **Diagnostics** | Live cache/queue snapshots + manual maintenance API |
 
 ---
+
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/8510026a-ac25-48d8-b589-3a2df986fcbb" />
+
+
+
 
 ## Installation
 

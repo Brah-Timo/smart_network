@@ -1,0 +1,57 @@
+name: smart_network
+description: >
+  A production-ready networking layer for Flutter with smart retries, advanced caching, request deduplication, offline support, automatic token refresh, batching, and seamless Dio integration.
+
+version: 1.0.0
+homepage: https://github.com/Brah-Timo/smart_network
+repository: https://github.com/Brah-Timo/smart_network
+issue_tracker: https://github.com/Brah-Timo/smart_network/issues
+
+topics:
+  - networking
+  - http
+  - dio
+  - api-client
+  - caching
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── HTTP Client ──────────────────────────────────────────────────────
+  dio: ^5.4.0
+
+  # ── Persistent Cache ─────────────────────────────────────────────────
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # ── Connectivity ─────────────────────────────────────────────────────
+  connectivity_plus: ^6.0.0
+
+  # ── Cryptography (cache key hashing) ─────────────────────────────────
+  crypto: ^3.0.3
+
+  # ── Equality & Value Semantics ────────────────────────────────────────
+  equatable: ^2.0.5
+
+  # ── Thread-Safety / Mutex ────────────────────────────────────────────
+  synchronized: ^3.1.0
+
+  # ── Logging ──────────────────────────────────────────────────────────
+  logger: ^2.0.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+  very_good_analysis: ^5.1.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  # Pure Dart package — no assets or fonts required

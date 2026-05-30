@@ -1,0 +1,14 @@
+name: smart_network_example
+description: Comprehensive example demonstrating all smart_network features.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  smart_network:
+    path: ../
